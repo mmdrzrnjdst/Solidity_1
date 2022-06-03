@@ -1,11 +1,11 @@
-pragma solidity 0.8.13;
+pragma solidity 0.8.14;
 
 contract Solidity_1{
 
-    struct iData(
+    struct iData{
         string Name;
-        uint Age:
-    )
+        uint Age;
+    }
 
     mapping(address => iData) private _idataUser;
     
